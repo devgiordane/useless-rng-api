@@ -9,12 +9,14 @@ export default function Home() {
             <h2>Endpoint Usage</h2>
             <div className="endpoint">
                 <code>GET https://useless-rng-api.vercel.app/api/rng?min=1&max=100</code>
+                <br /><br />
+                <code>GET https://useless-rng-api.vercel.app/api/rng?min=1&max=100&amount=5</code>
             </div>
 
             <h2>Example Request</h2>
             <pre>
                 <code>
-                    curl "https://useless-rng-api.vercel.app/api/rng?min=1&max=100"
+                    curl "https://useless-rng-api.vercel.app/api/rng?min=1&max=100&amount=5"
                 </code>
             </pre>
 
@@ -24,7 +26,8 @@ export default function Home() {
                     {`{
   "min": 1,
   "max": 100,
-  "number": 42
+  "amount": 5,
+  "numbers": [42, 7, 89, 23, 100]
 }`}
                 </code>
             </pre>
