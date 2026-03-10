@@ -16,7 +16,7 @@ export default function Home() {
             <h2>Example Request</h2>
             <pre>
                 <code>
-                    curl "https://useless-rng-api.vercel.app/api/rng?min=1&max=100&amount=5"
+                    curl &quot;https://useless-rng-api.vercel.app/api/rng?min=1&max=100&amount=5&quot;
                 </code>
             </pre>
 
